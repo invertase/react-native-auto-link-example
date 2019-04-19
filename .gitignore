@@ -49,10 +49,7 @@ ehthumbs.db
 Thumbs.db
 
 # Android
-project/android/gradlew
 project/android/build
-project/android/gradlew.bat
-project/android/gradle
 project/android/.settings
 
 .idea
