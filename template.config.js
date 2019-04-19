@@ -6,6 +6,7 @@ module.exports = {
   // Directory with template
   templateDir: "./project",
 
+  // TODO currently breaks on cli
   // Path to script, which will be executed after init
-  postInitScript: "./post-init.js"
+  // postInitScript: "./post-init.js"
 };
