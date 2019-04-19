@@ -18,6 +18,6 @@
 ---
 
 ```
-npx @react-native-community/cli init --template=@react-native-firebase/template
+npx @react-native-community/cli@next init --template=@react-native-firebase/template
 ```
 
