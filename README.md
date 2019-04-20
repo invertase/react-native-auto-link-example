@@ -17,7 +17,10 @@
 
 ---
 
+Init a new React Native project with Firebase:
+
 ```
 npx @react-native-community/cli@next init --template=@react-native-firebase/template
 ```
 
+**THIS IS NOT READY YET, THINGS MAY NOT BE WORKING - USING EXPERIMENTAL CLI AUTO-LINKING**
