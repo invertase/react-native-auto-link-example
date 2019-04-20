@@ -52,6 +52,9 @@ Thumbs.db
 project/android/build
 project/android/.settings
 
+# Node
+project/node_modules
+
 .idea
 yarn.lock
 .github

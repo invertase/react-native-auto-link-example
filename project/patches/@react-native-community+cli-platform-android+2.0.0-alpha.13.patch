@@ -1,0 +1,17 @@
+diff --git a/node_modules/@react-native-community/cli-platform-android/native_modules.gradle b/node_modules/@react-native-community/cli-platform-android/native_modules.gradle
+index 757ccf1..b1f30de 100644
+--- a/node_modules/@react-native-community/cli-platform-android/native_modules.gradle
++++ b/node_modules/@react-native-community/cli-platform-android/native_modules.gradle
+@@ -232,8 +232,10 @@ ext.applyNativeModulesAppBuildGradle = { Project project ->
+     applicationId = [variant.mergedFlavor.applicationId, variant.buildType.applicationIdSuffix].findAll().join()
+   }
+ 
+-  task generatePackageList << {
+-    autoModules.generatePackagesFile(generatedSrcDir, generatedFileName, generatedFileContentsTemplate, applicationId)
++  task generatePackageList {
++    doLast {
++      autoModules.generatePackagesFile(generatedSrcDir, generatedFileName, generatedFileContentsTemplate, applicationId)
++    }
+   }
+ 
+   preBuild.dependsOn generatePackageList
