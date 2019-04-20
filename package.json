@@ -2,7 +2,7 @@
   "name": "@invertase/template",
   "version": "0.0.1",
   "author": "Invertase <oss@invertase.io> (http://invertase.io)",
-  "description": "React Native - Template",
+  "description": "React Native - Template, with auto-linking",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
