@@ -1,8 +1,8 @@
 {
-  "name": "@react-native-firebase/template",
-  "version": "0.0.10",
+  "name": "@invertase/template",
+  "version": "0.0.1",
   "author": "Invertase <oss@invertase.io> (http://invertase.io)",
-  "description": "React Native Firebase - Template",
+  "description": "React Native - Template",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
@@ -10,7 +10,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/invertase/react-native-firebase/tree/master/packages/template"
+    "url": "https://github.com/invertase/react-native-auto-link-example/tree/master"
   },
   "license": "Apache-2.0",
   "keywords": [

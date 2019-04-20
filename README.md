@@ -9,7 +9,7 @@ The changes in this template will eventually be part of the main RN template (`r
 Run the below command to init a new React Native project that supports auto-linking. 
 
 ```
-npx @react-native-community/cli@next init --template=@react-native-firebase/template <myProjectName>
+npx @react-native-community/cli@next init --template=@invertase/template <myProjectName>
 ```
 
 **Note**: Some React Native modules may be using an old configuration format and will be excluded from auto-linking but will print warnings similar to the following when running `react-native start`:
